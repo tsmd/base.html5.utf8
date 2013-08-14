@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+
+/* =============================================================================
+   Functions
+   ========================================================================== */
+
+@function rem-size($size:0px) {
+	@return $size / $xxx-font-size-base * 1rem;
+}
+
+// from : http://jsdo.it/a_t/j9mT
+@function no-unit($value) {
+	$_nounit_divisor: (floor($value) * 2) % 2 + 1;
+	@return ($value / $_nounit_divisor);
+}
+
