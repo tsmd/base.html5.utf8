@@ -1,0 +1,168 @@
+### Global/Eclipse.gitignore
+
+*.pydevproject
+.project
+.metadata
+bin/**
+tmp/**
+tmp/**/*
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.classpath
+.settings/
+.loadpath
+
+# External tool builders
+.externalToolBuilders/
+
+# Locally stored "Eclipse launch configurations"
+*.launch
+
+# CDT-specific
+.cproject
+
+# PDT-specific
+.buildpath
+
+
+### Global/Emacs.gitignore
+
+*~
+/#*/#
+/.emacs.desktop
+/.emacs.desktop.lock
+.elc
+auto-save-list
+tramp
+./#*
+
+# Org-mode
+.org-id-locations
+*_archive
+
+
+### Global/IntelliJ.gitignore
+
+*.iml
+*.ipr
+*.iws
+.idea/
+
+
+### Global/Linux.gitignore
+
+.*
+!.gitignore
+*~
+
+
+### Global/Mercurial.gitignore
+
+/.hg/*
+*/.hg/*
+.hgignore
+
+
+### Global/NetBeans.gitignore
+
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+nbactions.xml
+nb-configuration.xml
+
+
+### Global/OSX.gitignore
+
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+
+### Global/SASS.gitignore
+
+### SASS Ignores - "Sassy CSS" http://sass-lang.com/
+*.sass-cache
+
+
+### Global/SVN.gitignore
+
+.svn/
+
+
+### Global/SublimeText.gitignore
+
+# SublimeText project files
+*.sublime-workspace
+
+
+### Global/Tags.gitignore
+
+# Ignore tags created by etags and ctags
+TAGS
+!TAGS/
+tags
+!tags/
+
+
+### Global/TextMate.gitignore
+
+*.tmproj
+*.tmproject
+tmtags
+
+
+### Global/Windows.gitignore
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+
+### Global/vim.gitignore
+
+*.s[a-w][a-z]
+*.un~
+Session.vim
+.netrwhist
+*~
+
+
+### Node.gitignore
+
+lib-cov
+*.seed
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
+
+pids
+logs
+results
+
+npm-debug.log
+node_modules
+
